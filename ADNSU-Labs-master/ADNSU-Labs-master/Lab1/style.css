@@ -1,0 +1,108 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav {
+    background-color: rgb(36, 72, 73);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    color: black;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+  
+  .sidebar {
+    background-color: rgb(255, 255, 255);
+    width: 190px;
+    height: 110px;
+    color: black;
+    text-align: center;
+    align: center;
+    margin-left: 9px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .aside {
+    background-color: rgb(36, 72, 73);
+    width: 250px;
+    margin-bottom: 18px;
+  }
+  
+  .backtotop {
+    background-color: rgb(5, 43, 31);
+    width: 230px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    align: center;
+    padding-top: 10px;
+    margin-left: 9px;
+    font-weight: bolder;
+  }
+  
+  .explanation {
+    padding-left: 25px;
+    width: 700px;
+    font-size: 17px;
+  }
+  .explanation h2 {
+    font-size: 25px;
+  }
+  
+  h1 {
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color: aliceblue;
+  }
+  
+  hr {
+    border-top: 2px dotted black;
+  }
+  
+  .notification {
+    background-color: rgb(36, 72, 73);
+    color: white;
+    padding: 5px 30px 10px 80px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 650px;
+    position: relative;
+    right: 25px;
+    text-align: right;
+  }
+  
+  .a2 {
+    color: white;
+    position: relative;
+  }
